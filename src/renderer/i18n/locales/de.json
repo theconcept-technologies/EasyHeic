@@ -1,0 +1,79 @@
+{
+  "header": {
+    "appName": "EasyHEIC",
+    "tagline": "HEIC Bilder einfach umwandeln",
+    "restart": "Neu starten",
+    "restartConfirmTitle": "Wirklich neu starten?",
+    "restartConfirmText": "Alle bisherigen Eingaben und Einstellungen werden zurückgesetzt."
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "common": {
+    "next": "Weiter",
+    "back": "Zurück",
+    "yes": "Ja, neu starten",
+    "cancel": "Abbrechen"
+  },
+  "steps": {
+    "step1": {
+      "label": "Schritt 1",
+      "title": "Dateien auswählen",
+      "dropzone": "Bilder hierher ziehen",
+      "dropzoneOr": "oder",
+      "selectFiles": "Dateien auswählen",
+      "selectFolder": "Ordner auswählen",
+      "includeSubfolders": "Unterordner einbeziehen",
+      "filesSelected": "{{count}} Datei ausgewählt",
+      "filesSelected_other": "{{count}} Dateien ausgewählt",
+      "noFiles": "Noch keine Dateien ausgewählt",
+      "clearFiles": "Auswahl löschen",
+      "edit": "Ändern",
+      "confirmRemove": "Möchtest du dieses Bild aus der Liste entfernen? (Original bleibt erhalten)",
+      "removeFile": "Datei entfernen"
+    },
+    "step2": {
+      "label": "Schritt 2",
+      "title": "Zielordner auswählen",
+      "button": "Zielordner auswählen",
+      "selected": "Zielordner:",
+      "noFolder": "Noch kein Zielordner ausgewählt"
+    },
+    "step3": {
+      "label": "Schritt 3",
+      "title": "Format wählen",
+      "jpeg": "JPEG",
+      "png": "PNG",
+      "quality": "Qualität",
+      "qualityHint": "Höhere Qualität = größere Datei"
+    },
+    "step4": {
+      "label": "Schritt 4",
+      "title": "Umwandeln",
+      "button": "Umwandeln starten",
+      "convertButton": "Umwandeln starten",
+      "converting": "Verarbeitung läuft…",
+      "done": "Fertig!",
+      "openFolder": "Zielordner öffnen",
+      "convertAnother": "Neue Umwandlung",
+      "errorsTitle": "Fehler bei einigen Dateien:",
+      "successCount": "{{count}} Datei erfolgreich umgewandelt",
+      "successCount_other": "{{count}} Dateien erfolgreich umgewandelt",
+      "errorCount": "{{count}} Fehler",
+      "progress": "{{current}} von {{total}}",
+      "currentFile": "Aktuelle Datei: {{name}}"
+    }
+  },
+  "errors": {
+    "conversionFailed": "Umwandlung fehlgeschlagen",
+    "noFiles": "Bitte wähle mindestens eine Datei aus",
+    "noOutput": "Bitte wähle einen Zielordner aus"
+  },
+  "footer": {
+    "developedBy": "Entwickelt von",
+    "helpAndSupport": "Hilfe & Support",
+    "website": "Website",
+    "companyName": "theconcept technologies"
+  }
+}

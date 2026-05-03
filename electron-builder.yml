@@ -1,0 +1,51 @@
+appId: com.theconcept-technologies.easyheic
+productName: EasyHEIC
+copyright: © Martin Weigl / theconcept technologies FlexKapG
+artifactName: EasyHEIC-${version}-${arch}.${ext}
+
+directories:
+  output: dist
+  buildResources: resources
+
+files:
+  - out/**/*
+  - resources/**/*
+  - package.json
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+  icon: resources/icon.ico
+  publisherName: theconcept technologies FlexKapG
+  legalTrademarks: © Martin Weigl / theconcept technologies FlexKapG
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: EasyHEIC
+  installerIcon: resources/icon.ico
+  uninstallerIcon: resources/icon.ico
+  installerHeader: resources/icon.ico
+  license: null
+  include: null
+  script: null
+  deleteAppDataOnUninstall: false
+  menuCategory: theconcept technologies
+
+mac:
+  target:
+    - dmg
+  icon: resources/icon.icns
+  category: public.app-category.graphics-design
+
+publish:
+  provider: github
+  owner: theconcept-technologies
+  repo: easyheic

@@ -1,0 +1,79 @@
+{
+  "header": {
+    "appName": "EasyHEIC",
+    "tagline": "Convert HEIC images with ease",
+    "restart": "Restart",
+    "restartConfirmTitle": "Restart application?",
+    "restartConfirmText": "All inputs and settings will be reset."
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "common": {
+    "next": "Continue",
+    "back": "Back",
+    "yes": "Yes, restart",
+    "cancel": "Cancel"
+  },
+  "steps": {
+    "step1": {
+      "label": "Step 1",
+      "title": "Select Files",
+      "dropzone": "Drop images here",
+      "dropzoneOr": "or",
+      "selectFiles": "Select Files",
+      "selectFolder": "Select Folder",
+      "includeSubfolders": "Include subfolders",
+      "filesSelected": "{{count}} file selected",
+      "filesSelected_other": "{{count}} files selected",
+      "noFiles": "No files selected yet",
+      "clearFiles": "Clear selection",
+      "edit": "Edit",
+      "confirmRemove": "Do you really want to remove this image from the list? (Original file remains untouched)",
+      "removeFile": "Remove File"
+    },
+    "step2": {
+      "label": "Step 2",
+      "title": "Output Folder",
+      "button": "Select Output Folder",
+      "selected": "Output folder:",
+      "noFolder": "No output folder selected yet"
+    },
+    "step3": {
+      "label": "Step 3",
+      "title": "Choose Format",
+      "jpeg": "JPEG",
+      "png": "PNG",
+      "quality": "Quality",
+      "qualityHint": "Higher quality = larger file size"
+    },
+    "step4": {
+      "label": "Step 4",
+      "title": "Convert",
+      "button": "Start conversion",
+      "convertButton": "Start conversion",
+      "converting": "Processing…",
+      "done": "Done!",
+      "openFolder": "Open Output Folder",
+      "convertAnother": "Convert More",
+      "errorsTitle": "Errors for some files:",
+      "successCount": "{{count}} file converted successfully",
+      "successCount_other": "{{count}} files converted successfully",
+      "errorCount": "{{count}} error(s)",
+      "progress": "{{current}} of {{total}}",
+      "currentFile": "Current file: {{name}}"
+    }
+  },
+  "errors": {
+    "conversionFailed": "Conversion failed",
+    "noFiles": "Please select at least one file",
+    "noOutput": "Please select an output folder"
+  },
+  "footer": {
+    "developedBy": "Developed by",
+    "helpAndSupport": "Help & Support",
+    "website": "Website",
+    "companyName": "theconcept technologies"
+  }
+}
